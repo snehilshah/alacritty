@@ -60,6 +60,3 @@ live_config_reload = true
 import = [
     "~/.config/alacritty/themes/themes/gruvbox_material_medium_dark.toml"
 ]
-
-[terminal.shell]
-program='ubuntu2204.exe'
