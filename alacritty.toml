@@ -48,7 +48,6 @@ semantic_escape_chars = "|:\"' {}()[]<>"
 decorations = "none"
 opacity = 0.7           
 startup_mode = "FullScreen"
-blur = true
 
 [window.padding]
 x = 1
@@ -58,8 +57,23 @@ y = 1
 live_config_reload = true
 
 import = [
-    "~/.config/alacritty/themes/themes/gruvbox_material_medium_dark.toml"
+    "C:\\Users\\Snehil Shah\\AppData\\Roaming\\alacritty\\themes\\GruvSoft.toml"
 ]
 
 [terminal.shell]
 program='ubuntu2204.exe'
+
+[[keyboard.bindings]]
+action = "ToggleFullscreen"
+key = "f"
+mods = "Alt"
+
+[[keyboard.bindings]]
+action = "Quit"
+key = "c"
+mods = "super"
+
+[[keyboard.bindings]]
+key = "Return"
+mods = "Alt"
+chars = "\u001b\u000d"
